@@ -18,7 +18,7 @@ const Banner = () => {
           src={banner}
           alt="Banner Background"
           fill
-          className="object-cover object-center w-ful h-auto  "
+          className="object-cover object-center  "
           priority
         />
 
