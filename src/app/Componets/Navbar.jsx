@@ -12,7 +12,9 @@ const Navbar = () => {
         <div className="container">
           <div className="navItems flex justify-between items-center py-10">
             <div className="img-part">
+                <Link href={'#'}>
               <Image src={logo} alt="logo" width={93} height={29} />
+                </Link>
             </div>
             <div className="menuItems flex gap-10">
               <a
