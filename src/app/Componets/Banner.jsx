@@ -12,13 +12,13 @@ const Banner = () => {
   return (
     <section id="Opurbo Products Details Banner">
       {/* Banner Wrapper */}
-      <div className="w-full h-[581px] relative">
+      <div className="w-full lg:h-[581px] h-[300px]  relative">
         {/* Background Banner */}
         <Image
           src={banner}
           alt="Banner Background"
           fill
-          className="object-cover object-center"
+          className="object-cover object-center w-ful h-auto  "
           priority
         />
 
@@ -27,12 +27,13 @@ const Banner = () => {
           src={overlay}
           alt="Banner Overlay"
           fill
-          className="object-cover object-center opacity-70" // opacity দিয়ে dim effect
+          className="object-cover object-center opacity-70 w-full h-auto " 
+        
         />
 
         {/* Content part */}
         <div className="absolute inset-0 z-10 container ">
-          <div className="mt-10">
+          <div className="lg:mt-10 pt-15">
             <Link
               href="/"
               className="w-[166px] h-9 bg-gray-600 border border-gray-400 rounded-lg text-[#FFF] font-inter text-sm font-medium flex gap-3 items-center justify-center"
@@ -42,20 +43,20 @@ const Banner = () => {
             </Link>
           </div>
 
-          <h1 className="text-[48px] font-inter font-bold text-[#ffffff] lg:pt-[269px] pb-4">
+          <h1 className="lg:text-[48px] text-2xl  font-inter font-bold text-[#ffffff] lg:pt-[269px] pt-15 pb-4">
             Green Valley Residences
           </h1>
           <div className="location-part flex gap-6">
             <Link
               href={"/"}
-              className="flex items-center gap-2 text-[#FFFFFFE6] text-lg font-inter"
+              className="flex items-center gap-2 text-[#FFFFFFE6] lg:text-lg text-sm font-inter"
             >
               <GrLocation />
               <span>Dhaka</span>
             </Link>
             <Link
               href={"/"}
-              className="flex items-center gap-2 text-[#FFFFFFE6] text-lg font-inter"
+              className="flex items-center gap-2 text-[#FFFFFFE6] lg:text-lg text-sm font-inter"
             >
               <FaRegCalendarMinus  />
               <span>2024</span>
