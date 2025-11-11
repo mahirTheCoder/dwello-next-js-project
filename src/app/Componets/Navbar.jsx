@@ -8,9 +8,9 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <section id="navbar">
+      {/* <section id="navbar">
         <div className="container">
-          <div className="navItems flex justify-between items-center  py-10">
+          <div className="navItems flex justify-between flex-wrap items-center  py-10">
             <div className="img-part">
                 <Link href={'/'}>
               <Image src={logo} alt="logo" width={93} height={29} />
@@ -57,7 +57,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
