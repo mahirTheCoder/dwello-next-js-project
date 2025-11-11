@@ -10,9 +10,9 @@ const Navbar = () => {
     <>
       <section id="navbar">
         <div className="container">
-          <div className="navItems flex justify-between items-center hidden lg:block py-10">
+          <div className="navItems flex justify-between items-center  py-10">
             <div className="img-part">
-                <Link href={'#'}>
+                <Link href={'/'}>
               <Image src={logo} alt="logo" width={93} height={29} />
                 </Link>
             </div>

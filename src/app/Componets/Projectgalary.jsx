@@ -11,7 +11,7 @@ const Projectgalary = () => {
         <div className="container ">
           <div className="content-part lg:mt-[135px] mt-10">
 
-            <div className="header flex flex-col items-center">
+            <div className="header flex flex-col lg:items-center">
               <h2 className="lg:text-[48px] text-2xl font-semibold font-inter text-[#09231E] lg:text-center mb-2">
                 Project Gallery
               </h2>
